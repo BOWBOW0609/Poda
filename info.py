@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Mafia_Links')
-API_ID = int(environ.get('API_ID', '12088528'))
+API_ID = int(environ.get('API_ID', 12088528))
 API_HASH = environ.get('API_HASH', '414a069785b4acb89ef2e7f9f86d0c2b')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6224186025:AAGi0bfW9m2RBBnxwZfLC2nER3c96W0G88Q")
 
@@ -37,7 +37,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001961559386'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001961559386))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Mafia_Links')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
