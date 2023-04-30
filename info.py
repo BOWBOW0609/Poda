@@ -79,7 +79,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/Mafia_Links/12"
+DOWNLOAD_TEXT_URL = "https://urlshorten.in/ref/102057723177896595550"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "🔰 MAIN CHANNEL 🔰"
