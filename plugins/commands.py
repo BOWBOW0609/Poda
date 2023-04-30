@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/OTT_Updated')
+                InlineKeyboardButton('⚡ MAIN  CHANNEL ⚡', url='https://t.me/mafia_links')
             ],
             [
-                InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url=f"https://youtube.com/@GreyMattersYT"),
+                InlineKeyboardButton('Help❗', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -45,14 +45,22 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/@GreyMattersYT'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/OTT_Updated')
-            ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-        ]]
+
+              InlineKeyboardButton('🔍 Search Movies/Series', switch_inline_query_current_chat='')
+
+             ],[
+
+             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/mafia_links'),
+
+             InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
+
+             ],[
+
+             InlineKeyboardButton('Report ⚠️', url='https://t.me/Mafia_Request_Report_bot'),
+
+             InlineKeyboardButton('ABOUT ME 😉', callback_data='about')
+
+           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -70,7 +78,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "⭕ JOIN NOW ⭕", url=invite_link.invite_link
                 )
             ]
         ]
@@ -91,14 +99,22 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/@GreyMattersYT'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/OTT_Updated')
-            ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-        ]]
+
+              InlineKeyboardButton('🔍 Search Movies/Series', switch_inline_query_current_chat='')
+
+             ],[
+
+             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/mafia_links'),
+
+             InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
+
+             ],[
+
+             InlineKeyboardButton('Report ⚠️', url='https://t.me/Mafia_Request_Report_bot'),
+
+             InlineKeyboardButton('ABOUT ME 😉', callback_data='about')
+
+           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
