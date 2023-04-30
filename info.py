@@ -38,8 +38,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mafiatamilan:LOG@cluster1.k0js6wt.mongodb.net/?retryWrites=true&w=majority")
 
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Cluster0')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001961559386'))
