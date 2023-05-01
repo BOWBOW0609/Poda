@@ -11,7 +11,7 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://omegalinks.in/ref/GreyMatter6458')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://urlshorten.in')
     START_TXT = environ.get("START_TXT", '''<b>Hello ... {} 👋</b>\n <b>✯ My Name is <a href=http://t.me/Mafia_managebot><b>MAFIA LINKS</b></a>\n <b>✯ I Can Provide MOVIES,SERIES And Lot More</b>\n <b>✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Mafia_Links</b>\n <b>TEAM - @Mafia_Link</b>''')
 
 
