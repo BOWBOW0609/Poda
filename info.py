@@ -29,7 +29,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5179005671 5836099116 1451076797').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001961289471')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -43,7 +43,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001961559386'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Mafia_Links')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Cineflex_Links')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -84,10 +84,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "⚡How To Download⚡"
-DOWNLOAD_TEXT_URL = "https://t.me/Mafia_Links/12"
+DOWNLOAD_TEXT_URL = "https://t.me/c/1940244697/3"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "⚡MAIN CHANNEL⚡"
-CAPTION_BUTTON_URL = "https://t.me/Mafia_Links"
+CAPTION_BUTTON_URL = "https://t.me/Cineflex_Links"
 
    # Auto Delete For Bot Sending Files #
