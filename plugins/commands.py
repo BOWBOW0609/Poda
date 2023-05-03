@@ -50,7 +50,7 @@ async def start(client, message):
 
              ],[
 
-             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/mafia_links'),
+             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/CINEFLEX_links'),
 
              InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
 
@@ -104,7 +104,7 @@ async def start(client, message):
 
              ],[
 
-             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/mafia_links'),
+             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/CINEFLEX_links'),
 
              InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
 
