@@ -253,7 +253,7 @@ async def start(client, message):
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
         try:
-            f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
+            f_caption=CUSTOM_FILE_CAPTION
         except Exception as e:
             logger.exception(e)
             f_caption=f_caption
@@ -263,7 +263,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/@GreyMattersYT') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔰 𝘾𝙄𝙉𝙀𝙁𝙇𝙀𝙓', url='https://t.me/Cineflex_Links') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
