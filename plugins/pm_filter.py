@@ -437,7 +437,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
              ],[
 
-             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/mafia_links'),
+             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/cineflex_links'),
 
              InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
 
