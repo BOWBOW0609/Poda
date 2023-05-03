@@ -73,8 +73,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'https://urlshorten.in/')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '357882950a045288788d9d5fbb6d43503bd583b1')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'https://moneycase.link')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '2b55121eea205e2c9da3a24817a24932d3614aa7')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
@@ -87,7 +87,7 @@ DOWNLOAD_TEXT_NAME = "⚡How To Download⚡"
 DOWNLOAD_TEXT_URL = "https://t.me/Cineflex_Links/4"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "⚡MAIN CHANNEL⚡"
+CAPTION_BUTTON ="⚡MAIN CHANNEL⚡"
 CAPTION_BUTTON_URL = "https://t.me/Cineflex_Links"
 
    # Auto Delete For Bot Sending Files #
