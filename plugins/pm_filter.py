@@ -795,7 +795,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I couldn't find any movie in that name.")
+        k = await msg.reply("<b>I couldn't find anything related to that.</b>\n <b>Check your spelling with the help of GOOGLE.COM </b>\n <b>Press only the Movie/Series name ONCE (without year)</b>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -824,7 +824,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
+        k = await msg.reply("<b>I couldn't find anything related to that.</b>\n <b>Check your spelling with the help of GOOGLE.COM </b>\n <b>Press only the Movie/Series name ONCE (without year)</b>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -836,7 +836,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
+    await msg.reply("<b>I couldn't find anything related to that.</b>\n <b>Check your spelling with the help of GOOGLE.COM </b>\n <b>Press only the Movie/Series name ONCE (without year)</b>,
                     reply_markup=InlineKeyboardMarkup(btn))
                     
 
