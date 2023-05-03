@@ -381,7 +381,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://moneycase.link/member/tools/api'
+    url = f'https://moneycase.link'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
