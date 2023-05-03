@@ -84,7 +84,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "⚡How To Download⚡"
-DOWNLOAD_TEXT_URL = "https://t.me/c/1940244697/3"
+DOWNLOAD_TEXT_URL = "https://t.me/Cineflex_Links/4"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "⚡MAIN CHANNEL⚡"
