@@ -263,7 +263,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔰 𝘾𝙄𝙉𝙀𝙁𝙇𝙀𝙓', url='https://t.me/Cineflex_Links') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton( CAPTION_BUTTON, url= CAPTION_BUTTON_URL) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
