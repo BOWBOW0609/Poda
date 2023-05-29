@@ -35,7 +35,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MafiaTamilan:1234@cluster1.buuispq.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MOVIESHUB:123@cluster0.onkqo0t.mongodb.net/?retryWrites=true&w=majority")
 
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
@@ -87,10 +87,10 @@ if SELF_DELETE == "True":
 
 DOWNLOAD_TEXT_NAME = "⚡ HOW TO DOWNLOAD ⚡"
 
-DOWNLOAD_TEXT_URL = "https://t.me/Cineflex_Links/4"
+DOWNLOAD_TEXT_URL = "https://t.me/c/1961289471/4"
 
    # Custom Caption Under Button #
 
-CAPTION_BUTTON = "🔰 CINEFLEX 🔰"
+CAPTION_BUTTON = "🔰 MOVIEHUB 🔰"
 
-CAPTION_BUTTON_URL = "https://t.me/Cineflex_Links"
+CAPTION_BUTTON_URL = "https://t.me/c/1961289471/4"
