@@ -56,7 +56,7 @@ async def start(client, message):
 
              ],[
 
-             InlineKeyboardButton('Report ⚠️', url='https://t.me/Mafia_Request_Report_bot'),
+             InlineKeyboardButton('Report ⚠️', url='http://t.me/movieshubReport_bot'),
 
              InlineKeyboardButton('ABOUT ME 😉', callback_data='about')
 
@@ -110,7 +110,7 @@ async def start(client, message):
 
              ],[
 
-             InlineKeyboardButton('Report ⚠️', url='https://t.me/Mafia_Request_Report_bot'),
+             InlineKeyboardButton('Report ⚠️', url='http://t.me/movieshubReport_bot'),
 
              InlineKeyboardButton('ABOUT ME 😉', callback_data='about')
 
