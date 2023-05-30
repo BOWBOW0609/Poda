@@ -434,7 +434,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies/Series', switch_inline_query_current_chat='')
         ], [
-            InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/mafia_links'),
+            InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/+4hxdhnPvQtFkMTll'),
             InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
         ], [
             InlineKeyboardButton('Report ⚠️', url='https://t.me/Mafia_Request_Report_bot'),
@@ -697,7 +697,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://youtu.be/A6_YkUKgbgo')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/+4hxdhnPvQtFkMTll')
         ]
     )
 
@@ -748,7 +748,9 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n😌 ɪꜰ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ 😌 \n\nᴇxᴀᴍᴘʟᴇ : \n\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ (ʏᴇᴀʀ) ᴛᴀɢ @admin"
+        cap = f"<b>Here is what i found for your query</b> <code>{search}</code>\n\n 🔗 Join : <b><a href="https://t.me/+4hxdhnPvQtFkMTll">MOVIES HUB</a></b>🔗 ... \n <b>Try To Forward This Message to Saved Messages or to our Friend It will be deleted after 3 minutes</b>"
+
+
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
