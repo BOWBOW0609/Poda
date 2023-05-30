@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ MAIN  CHANNEL ⚡', url='https://t.me/mafia_links')
+                InlineKeyboardButton('⚡ MAIN  CHANNEL ⚡', url='https://t.me/+4hxdhnPvQtFkMTll')
             ],
             [
                 InlineKeyboardButton('Help❗', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -50,7 +50,7 @@ async def start(client, message):
 
              ],[
 
-             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/CINEFLEX_links'),
+             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/+4hxdhnPvQtFkMTll'),
 
              InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
 
@@ -104,7 +104,7 @@ async def start(client, message):
 
              ],[
 
-             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/CINEFLEX_links'),
+             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/+4hxdhnPvQtFkMTll'),
 
              InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
 
