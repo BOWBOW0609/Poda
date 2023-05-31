@@ -748,8 +748,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Here is what i found for your query</b> <code>{search}</code>\n\n 🔗 Join : <b><a href="https://t.me/+4hxdhnPvQtFkMTll">MOVIES HUB</a></b>🔗 ... \n <b>Try To Forward This Message to Saved Messages or to our Friend It will be deleted after 3 minutes</b>"
-
+        cap = f"𝑯𝒆𝒓𝒆 𝒊𝒔 𝒘𝒉𝒂𝒕 𝒊 𝒇𝒐𝒖𝒏𝒅 𝒇𝒐𝒓 𝒚𝒐𝒖𝒓 𝒒𝒖𝒆𝒓𝒚 <code>{search}</code>\n\n 🔗 Join : 𝗠𝗼𝘃𝗶𝗲𝘀 𝗛𝘂𝗕 🔗 ... \n 𝙏𝙧𝙮 𝙏𝙤 𝙁𝙤𝙧𝙬𝙖𝙧𝙙 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙩𝙤 𝙎𝙖𝙫𝙚𝙙 𝙈𝙚𝙨𝙨𝙖𝙜𝙚𝙨 𝙤𝙧 𝙩𝙤 𝙤𝙪𝙧 𝙁𝙧𝙞𝙚𝙣𝙙 𝙄𝙩 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙙𝙚𝙡𝙚𝙩𝙚𝙙 𝙖𝙛𝙩𝙚𝙧 3 𝙢𝙞𝙣𝙪𝙩𝙚𝙨 "
 
     if imdb and imdb.get('poster'):
         try:
