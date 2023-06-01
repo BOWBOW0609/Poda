@@ -261,7 +261,7 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"Hey {}👋\n\n {file_name}\n\n 🔘 size-{file_size}\n\n 🔰 [MOVIES HUB](https://t.me/+4hxdhnPvQtFkMTll)""
+        f_caption = f"Hey {}👋\n\n {file_name}\n\n 🔘 size-{file_size}\n\n 🔰 [MOVIES HUB](https://t.me/+4hxdhnPvQtFkMTll)"
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
