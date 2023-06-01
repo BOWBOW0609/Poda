@@ -47,7 +47,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MOVIESHUB')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "Your File Name: <code>{file_name}</code> \n<b>[🔰Movies HuB](https://t.me/+4hxdhnPvQtFkMTll)</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "🔘 Your File Name <code>{file_name}</code>\n\n 🔘 size- <code>{file_size}</code>\n\n ╭─── • ❰[𝗠𝗼𝘃𝗶𝗲𝘀 𝗛𝘂𝗕](https://t.me/+4hxdhnPvQtFkMTll)❱ • ────➤\n ┣ ▫️[𝙍𝙀𝙌𝙐𝙀𝙎𝙏 𝙂𝙍𝙊𝙐𝙋](https://t.me/+oLmTZktj5cQ2MWQ1)\n ┣ ▫️[𝙍𝙀𝙋𝙊𝙍𝙏] (https://t.me/movieshubReport_bot) \n ╰─────── • ◆ • ───────➤")
 
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "Hey {}👋\n\n {file_name}\n\n 🔘 size-{file_size}\n\n ╭─── • ❰ @MAFIA_LINKS ❱ • ────➤\n ┣ ▫️ @MAFIABOTS\n ┣ ▫️ @MAFIABOTSSUPPORT\n ╰─────── • ◆ • ───────➤")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @GreyMatter_Bots")
