@@ -27,7 +27,7 @@ class script(object):
 
 <b>DEVS:<b>
 
-<a href=https://tme/MAFIABOTS><b>MAFIA BOTS</b></a>"""
+<a href=https://t.me/+4hxdhnPvQtFkMTll>MovieHuB</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
