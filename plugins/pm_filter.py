@@ -432,8 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🔍 Search Movies/Series', switch_inline_query_current_chat='')
-        ], [
+            
             InlineKeyboardButton('⚡Main Channel⚡',url='https://t.me/+4hxdhnPvQtFkMTll'),
             InlineKeyboardButton('🔰Request Group🔰', url='https://t.me/+oLmTZktj5cQ2MWQ1')
         ], [
@@ -472,9 +471,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
             ],[
 
-            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
+            InlineKeyboardButton('🏠 Home', callback_data='start'),
 
-            InlineKeyboardButton('🚫 𝙲𝙻𝙾𝚂𝙴 ', callback_data='close_data')
+            InlineKeyboardButton('🚫 Close ', callback_data='close_data')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
