@@ -253,15 +253,15 @@ async def start(client, message):
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
         try:
-            f_caption = CUSTOM_FILE_CAPTION.format(file_name='' if title is None else title,
-                                                   file_size='' if size is None else size,
-                                                   file_caption='' if f_caption is None else f_caption)
+            f_caption = CUSTOM_FILE_CAPTION.format(file_name=' ' if title is None else title,
+                                                   file_size=' ' if size is None else size,
+                                                   file_caption=' ' if f_caption is None else f_caption)
 
         except Exception as e:
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"Hey {}👋\n\n {file_name}\n\n 🔘 size-{file_size}\n\n ╭─── • ❰𝗠𝗼𝘃𝗶𝗲𝘀 𝗛𝘂𝗕❱ • ────➤\n  ┣ ▫️ 𝗠𝗼𝘃𝗶𝗲𝘀 𝗛𝘂𝗕 Request\n ╰─────── • ◆ • ───────➤"
+        f_caption = f"Hey {}👋\n\n {file_name}\n\n 🔘 size-{file_size}\n\n 🔰 [MOVIES HUB](https://t.me/+4hxdhnPvQtFkMTll)""
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
