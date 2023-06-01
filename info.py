@@ -87,7 +87,7 @@ if SELF_DELETE == "True":
 
 DOWNLOAD_TEXT_NAME = "⚡ HOW TO DOWNLOAD ⚡"
 
-DOWNLOAD_TEXT_URL = "https://t.me/c/1961289471/4"
+DOWNLOAD_TEXT_URL = "https://t.me/c/1961289471/16"
 
    # Custom Caption Under Button #
 
