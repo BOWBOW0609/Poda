@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('⚡ Main channel ⚡', url='https://t.me/+4hxdhnPvQtFkMTll')
             ],
             [
-                InlineKeyboardButton('⚡ Help ⚡', url=f"https://youtube.com/channel/UCqts9WhhlioK3RB9XQQzoAg"),
+                InlineKeyboardButton('⚡ Help ⚡', url=f"https://t.me/{temp.U_NAME}?start=about"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
