@@ -91,6 +91,6 @@ DOWNLOAD_TEXT_URL = "https://t.me/c/1961289471/16"
 
    # Custom Caption Under Button #
 
-CAPTION_BUTTON = "🔰 MOVIEHUB 🔰"
+CAPTION_BUTTON = "🔰 Share Me  🔰"
 
-CAPTION_BUTTON_URL = "https://t.me/c/1961289471/4"
+CAPTION_BUTTON_URL = "https://t.me/share/url?url=t.me/Mafia_managebot"
