@@ -12,12 +12,12 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/Cineflex_Links')
-    START_TXT = environ.get("START_TXT", '''<b>Hello ... {} 👋</b>\n <b>✯ My Name is <a href=http://t.me/Piratefilterbot><b>Pirate Filter Bot v1.0</b></a>\n <b>✯ I Can Provide MOVIES,SERIES And Lot More</b>\n <b>✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Pirate_Links</a></b>\n <b>Team - Pirate_Links</b>''')
+    START_TXT = environ.get("START_TXT", '''<b>Hello ... {} 👋</b>\n <b>✯ My Name is <a href=http://t.me/Piratefilterbot><b>Pirate Filter Bot v1.0</b></a>\n <b>✯ I Can Provide MOVIES,SERIES And Lot More</b>\n <b>✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Pirate_Links</a></b>\n <b>Team - @Pirate_Links</b>''')
 
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : <a href=http://t.me/Mafia_managebot><b>Movies HuBv1.0</b></a>\n ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/Piratefilterbot>Pirate Links</a>\n ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼\n ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹\n ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱\n ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝙰𝙽𝚈𝚆𝙷𝙴𝚁𝙴\n ✯ 𝙱𝚄𝙸𝙻𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 𝚟3.0.0[ Beta ]"""  
+    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : <a href=http://t.me/piratefilterbot><b>Pirate Filter Bot 1.0</b></a>\n ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/Pirate_Links>Pirate Links</a>\n ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼\n ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹\n ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱\n ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝙰𝙽𝚈𝚆𝙷𝙴𝚁𝙴\n ✯ 𝙱𝚄𝙸𝙻𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 𝚟3.0.0[ Beta ]"""  
 
     SOURCE_TXT = """<b>NOTE<b>
 
