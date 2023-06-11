@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ Main channel ⚡', url='https://t.me/+4hxdhnPvQtFkMTll')
+                InlineKeyboardButton('⚡ Main channel ⚡', url='https://t.me/pirate_Links')
             ],
             [
-                InlineKeyboardButton('⚡ Help ⚡', url=f"https://t.me/{temp.U_NAME}?start=about"),
+                InlineKeyboardButton('⚡ Help ⚡', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -93,7 +93,7 @@ async def start(client, message):
 
             
 
-            InlineKeyboardButton('🔰Main channel🎯 ', url='https://t.me/+4hxdhnPvQtFkMTll'),
+            InlineKeyboardButton('🔰Main channel🎯 ', url='https://t.me/Pirate_Links'),
 
             InlineKeyboardButton('Request😘 ', url='https://t.me/+oLmTZktj5cQ2MWQ1')
 
